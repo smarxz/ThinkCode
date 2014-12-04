@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
+
+*{    
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #fff;}
+
+header {
+    background: #e75353;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 100vh;}
+
+header img{
+    width: auto;
+    height: auto;
+    margin-top: 17%;}
+
+header h1{
+    font-family: Arial;
+    font-size: 3em;}
+
+header p{
+    font-size: 3.2em;
+    margin-top: -15px;}
+
+#scroll{
+    font-size: 3em;
+    margin-top: 15.5%;}
+
+#scroll a{
+    color: #fff;}
+
+section {
+    height: 90vh;
+    text-align: center;}
+
+section h1{
+    margin-top: 6%;
+    font-size: 4em;
+    color: #e75353;}
+
+.line{
+    background: #ececec;
+    height: 4px;
+    width: 20%;
+    display: block;
+    margin-left: 40%;}
+
+/* Tabela */
+
+table {
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    font-size: 100%;
+    overflow: auto;
+    width: auto;
+    margin-left: 9%;
+    margin-top: 6%;}
+
+table a{
+    color: #e75353;
+    padding:5px;
+    font-size: 1.4em;}
+
+table th {
+    background-color: #e75353;
+    color: white;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;}
+
+table td {
+    background-color: #eeeeee;
+    color: #6f6f6f;
+    padding: 20px 30px;}
+
+button{
+    margin-top: 1%;
+    border: none;
+    background: #e75353;
+    color: #fff;
+    width: 81.3%;
+    margin-left: -4px;
+    height: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    cursor: pointer;}
+
+button:hover{
+    background: #bb3b3b;}
+
+
+
+
+

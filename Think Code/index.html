@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!-- Informações -->
+    <meta charset="UTF-8">
+    <title>Think.Code - Personal Ideas</title>
+    <meta name="author" content="Samuel Marques">
+    <meta name="description" content="laboratório de ideias de samuel marques">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    
+    <!-- Icone -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    
+    <!-- Jquery -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+  
+   <header>
+       
+        <div class="logo animated bounceInDown">
+            <img src="img/logo.png" alt="Logo" title="Logo do site">
+            <h1>THINK</h1>
+            <p> CODE </p>
+        </div>
+            
+        <div id="scroll">
+            <a class="arow_down scroll animated bounceInDown" href="#tabela"><i class="fa fa-angle-double-down"></i></a>
+        </div>
+            
+    </header>
+    
+    <section id="tabela" class="wow bounceInUp">
+       
+        <h1>My Thinks</h1>
+        <div class="line"></div>
+        
+        <table>
+              <tbody>
+                    <tr>
+                          <th width="400">Name</th>
+                          <th width="500">Description</th>
+                          <th >Ação</th>
+                    </tr>
+            
+                    <tr>
+                          <td>Example 1</td>
+                          <td>Description 1</td>
+                            <td>
+                                <a href="view.html"><i class="fa fa-eye" alt="view" title="view"></i></a>
+                                <a href="#"><i class="fa fa-close" alt="delete" title="delete"></i></a>
+                            </td>
+                    </tr>
+            
+                    <tr>
+                          <td>Example 2</td>
+                          <td>Description 2</td>
+                          <td>
+                                <a href="view.html"><i class="fa fa-eye" alt="view" title="view"></i></a>
+                                <a href="#"><i class="fa fa-close" alt="delete" title="delete"></i></a>
+                          </td>
+                    </tr>
+            
+              </tbody>
+	    </table>
+	    
+	    <tfoot>
+           
+            <a href="new.html"><button><i class="fa fa-plus"></i>  Adicionar Ideia</button></a>
+            
+	    </tfoot>
+	    
+    </section>
+    
+
+<script src="js/scroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script>    new WOW().init();   </script>
+
+</body>
+</html>

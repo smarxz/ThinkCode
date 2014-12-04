@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
+
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #fff;}
+
+header {
+    background: #e75353;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 100vh;}
+
+header img{
+    width: auto;
+    height: auto;
+    margin-top: 17%;}
+
+header h1{
+    font-family: Arial;
+    font-size: 3em;}
+
+header p{
+    font-size: 3.2em;
+    margin-top: -15px;}
+
+#scroll{
+    font-size: 3em;
+    margin-top: 15.5%;}
+
+#scroll a{
+    color: #fff;}
+
+section {
+    height: 90vh;
+    text-align: center;}
+
+section h1{
+    margin-top: 6%;
+    font-size: 4em;
+    color: #e75353;}
+
+.line{
+    background: #ececec;
+    height: 4px;
+    width: 20%;
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 6%;}
+
+form {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #fff;
+}
+
+
+input[type="text"],
+input[type="date"],
+input[type="file"],
+textarea,
+select {
+    font-family: 'Raleway', sans-serif;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 100%;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #fafafa;
+    color: #e75353;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;}
+
+select {
+    padding: 6px;
+    height: 32px;}
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #e75353;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;}
+
+button:hover{
+    background: #bb3b3b;}
+
+fieldset {
+    margin-bottom: 30px;
+    border: none;}
+
+label {
+    color: #ccc;
+    display: block;
+    margin-bottom: 8px;}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 100%;
+  }
+
+}
